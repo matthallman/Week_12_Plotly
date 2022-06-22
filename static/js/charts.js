@@ -84,6 +84,10 @@ function init() {
         y: yticks,
         text: otu_labels.slice(0,10).reverse(),
         type: "bar",
+        marker: {
+          color: "#665687"
+      },
+
         orientation: 'h'
       }];
       
@@ -106,7 +110,7 @@ function init() {
           marker: {
               size: sample_values,
               color: otu_ids,
-              colorscale: 'Earth'
+              colorscale: 'Electric'
           }
   
       }
